@@ -1,11 +1,30 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;}
 
-h1 {
-  color: #343A40;
-  font-size: 24px;
-  font-weight: 100;
-  line-height: 28px;
-  margin-bottom: 0;
+
+.weather-app-box {
+  max-width: 600px;
+  margin: 30px auto;
 }
 
+.weather-app {
+  padding: 20px;
+  border: 1px solid #F0E4D7;
+  border-radius: 5px;
+}
+
+#search-form {
+  height: 40px;
+}
+.weather-btn {
+  background-color: #FF7171;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px
+}
+
+footer {
+  text-align: center;
+}
