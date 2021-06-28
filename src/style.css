@@ -24,15 +24,13 @@ body {
     line-height: 20px;
   }
 
-
-.weather-app-box {
-  max-width: 600px;
-  margin: 30px auto;
-}
+  li strong {
+    color: #FF7171;
+  }
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #F0E4D7;
+  border: 1px solid #dadde1;
   border-radius: 5px;
 }
 
