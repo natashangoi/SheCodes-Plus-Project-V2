@@ -7,7 +7,6 @@ body {
     font-weight: 700;
     line-height: 30px;  
     margin-bottom: 0;
-    margin-top: 20px;  
   }
 
   ul {
@@ -28,9 +27,22 @@ body {
     color: #FF7171;
   }
   
+  img {
+  margin-right: 0px;
+  height: 80px;
+  width: 80px;
+  line-height: 1;
+  text-align: center;
+  }
+
   #temperature {
     font-size: 75px;
     color: #310B0B;
+    line-height: 1;
+  }
+
+  .p-2 .bd-highlight  {
+    padding: 0;
   }
 
 .units {
