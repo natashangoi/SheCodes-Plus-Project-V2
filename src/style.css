@@ -7,6 +7,7 @@ body {
     font-weight: 700;
     line-height: 30px;  
     margin-bottom: 0;
+    margin-top: 20px;  
   }
 
   ul {
@@ -18,7 +19,6 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-
     color: #310B0B;
     font-size: 18px;
     line-height: 20px;
@@ -27,6 +27,20 @@ body {
   li strong {
     color: #FF7171;
   }
+  
+  #temperature {
+    font-size: 75px;
+    color: #310B0B;
+  }
+
+.units {
+  position: relative;
+  color: #310B0B;
+  line-height: 1;
+  top: -38px;
+  font-size: 28px;
+
+}
 
 .weather-app {
   padding: 20px;
