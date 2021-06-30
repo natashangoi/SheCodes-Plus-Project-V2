@@ -34,7 +34,7 @@ li::first-letter {
   margin-right: 0px;
   height: 100px;
   width: 100px;
-  line-height: 1;
+  line-height: 1.25;
   text-align: center;
   }
 
@@ -45,7 +45,7 @@ li::first-letter {
   #temperature {
     font-size: 75px;
     color: #310B0B;
-    line-height: 1;
+    line-height: 1.25;
   }
 
   .p-2 .bd-highlight  {
