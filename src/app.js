@@ -13,7 +13,6 @@ function formateDate(timestamp) {
     return `${day} ${hours}:${minutes}`
 }
 
-
 function displayWeather(response) {
     let temperatureElement = document.querySelector("#temperature");
     let cityElement = document.querySelector("#city");
@@ -31,12 +30,19 @@ function displayWeather(response) {
     dateElement.innerHTML = formateDate(response.data.dt * 1000);
     iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
     iconElement.setAttribute("alt", response.data.weather[0].description);
-
-
 }
 
-let apiKey = "f9f0439a96ed3cf7c71b3f3742b80bfa"
-let city = "Malaysia"
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+function search(city) {
+let apiKey = "f9f0439a96ed3cf7c71b3f3742b80bfa";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+axios.get(apiUrl).then(displayWeather);
+}
 
-axios.get(apiUrl).then(displayWeather)
+function handleSubmit(event) {
+    event.preventDefault();
+    let cityInputElement = document.querySelector("#city-input");
+    search(cityInputElement.value)
+}
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", handleSubmit);
