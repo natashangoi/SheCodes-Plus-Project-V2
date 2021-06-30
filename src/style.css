@@ -38,6 +38,10 @@ li::first-letter {
   text-align: center;
   }
 
+  .container {
+    margin-top: 30px;
+  }
+  
   #temperature {
     font-size: 75px;
     color: #310B0B;
