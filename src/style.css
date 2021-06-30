@@ -21,8 +21,10 @@ body {
     color: #310B0B;
     font-size: 18px;
     line-height: 20px;
-    text-transform: capitalize;
   }
+li::first-letter {
+  text-transform: capitalize;
+}
 
   li strong {
     color: #FF7171;
