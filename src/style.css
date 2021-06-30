@@ -81,4 +81,21 @@ li::first-letter {
 
 footer {
   text-align: center;
+} 
+
+a {
+  text-decoration: none;
+  color: #FF7171;
+  cursor: default;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FF7171;
+}
+
+.units .active{
+  text-decoration: none;
+  color: #310B0B;
+  cursor: default;
 }
