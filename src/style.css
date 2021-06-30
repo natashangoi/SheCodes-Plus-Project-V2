@@ -21,6 +21,7 @@ body {
     color: #310B0B;
     font-size: 18px;
     line-height: 20px;
+    text-transform: capitalize;
   }
 
   li strong {
