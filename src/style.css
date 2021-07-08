@@ -1,64 +1,85 @@
 body {
-  font-family: 'Inter', sans-serif;}
+  font-family: "Inter", sans-serif;
+}
 
-  h1 {
-    color: #310B0B;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 30px;  
-    margin-bottom: 0;
-  }
+h1 {
+  color: #310b0b;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 0;
+}
 
-  ul {
-    margin: 0;
-    padding: 0;
-  }
+ul {
+  margin: 0;
+  padding: 0;
+}
 
-  li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    color: #310B0B;
-    font-size: 18px;
-    line-height: 20px;
-  }
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #310b0b;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 li::first-letter {
   text-transform: capitalize;
 }
 
-  li strong {
-    color: #FF7171;
-  }
-  
-  img {
+li strong {
+  color: #ff7171;
+}
+
+img {
   margin-right: 0px;
   height: 100px;
   width: 100px;
   line-height: 1.25;
   text-align: center;
-  }
+}
 
-  .container {
-    margin-top: 30px;
-  }
-  
-  #temperature {
-    font-size: 75px;
-    color: #310B0B;
-    line-height: 1.25;
-  }
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
 
-  .p-2 .bd-highlight  {
-    padding: 0;
-  }
+.forecast-day {
+  font-size: 16px;
+  color: #310b0b;
+  opacity: 0.6;
+}
+
+.forecast-temp {
+  font-size: 15px;
+  color: #310b0b;
+}
+
+.forecast-temp-min {
+  opacity: 0.5;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+#temperature {
+  font-size: 75px;
+  color: #310b0b;
+  line-height: 1.25;
+}
+
+.p-2 .bd-highlight {
+  padding: 0;
+}
 
 .units {
   position: relative;
-  color: #310B0B;
+  color: #310b0b;
   line-height: 1;
   top: -38px;
   font-size: 28px;
-
 }
 
 .weather-app {
@@ -71,12 +92,12 @@ li::first-letter {
   height: 40px;
 }
 .weather-btn {
-  background-color: #FF7171;
+  background-color: #ff7171;
   border: none;
   color: white;
   font-size: 16px;
   font-weight: 700;
-  height: 40px
+  height: 40px;
 }
 
 .summary {
@@ -85,21 +106,21 @@ li::first-letter {
 
 footer {
   text-align: center;
-} 
+}
 
 a {
   text-decoration: none;
-  color: #FF7171;
+  color: #ff7171;
   cursor: default;
 }
 
 a:hover {
   text-decoration: none;
-  color: #FF7171;
+  color: #ff7171;
 }
 
-.units .active{
+.units .active {
   text-decoration: none;
-  color: #310B0B;
+  color: #310b0b;
   cursor: default;
 }
