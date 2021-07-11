@@ -1,23 +1,24 @@
 body {
   font-family: "Inter", sans-serif;
+  background-color: #ff7171;
 }
 
 h1 {
   color: #310b0b;
-  font-size: 26px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 30px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 ul {
-  margin: 0;
+  margin-top: 5px;
   padding: 0;
 }
 
 li {
   list-style: none;
-  margin: 0;
+  margin-top: 5px;
   padding: 0;
   color: #310b0b;
   font-size: 18px;
@@ -63,6 +64,7 @@ img {
 
 .container {
   margin-top: 30px;
+  max-width: 700px;
 }
 
 #temperature {
@@ -84,9 +86,11 @@ img {
 }
 
 .weather-app {
-  padding: 20px;
-  border: 1px solid #dadde1;
+  padding: 35px;
+  border: 1px solid #310b0b;
   border-radius: 5px;
+  background-color: white;
+  box-shadow: ;
 }
 
 #search-form {
@@ -120,8 +124,7 @@ a:hover {
   color: #ff7171;
 }
 
-.units .active {
+.units {
   text-decoration: none;
   color: #310b0b;
-  cursor: default;
 }
