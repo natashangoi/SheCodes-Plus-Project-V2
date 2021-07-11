@@ -36,6 +36,7 @@ function formatDay(timestamp) {
 
   return days[day];
 }
+
 function displayForecast(response) {
   let dailyForecast = response.data.daily;
 
