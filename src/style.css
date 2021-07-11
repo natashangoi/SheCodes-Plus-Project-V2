@@ -1,6 +1,5 @@
 body {
   font-family: "Inter", sans-serif;
-  background-color: #ff7171;
 }
 
 h1 {
@@ -87,10 +86,10 @@ img {
 
 .weather-app {
   padding: 35px;
-  border: 1px solid #310b0b;
+  border: 1px solid rgba(149, 157, 165, 0.5);
   border-radius: 5px;
   background-color: white;
-  box-shadow: ;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 #search-form {
