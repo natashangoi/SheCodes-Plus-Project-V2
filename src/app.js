@@ -77,11 +77,8 @@ function displayForecast(response) {
 }
 
 function getForecast(coord) {
-  console.log(coord);
   let apiKey = "f9f0439a96ed3cf7c71b3f3742b80bfa";
   let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coord.lat}&lon=${coord.lon}&exclude=minutely,hourly&units=metric&appid=${apiKey}`;
-
-  console.log(apiUrl);
 
   axios.get(apiUrl).then(displayForecast);
 }
@@ -146,11 +143,5 @@ let celciusTemperature = null;
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
-
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", displayFahrenheit);
-
-let celciusLink = document.querySelector("#celcius-link");
-celciusLink.addEventListener("click", displayCelcius);
 
 search("Christchurch");
